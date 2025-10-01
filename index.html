@@ -78,7 +78,7 @@
         }
 
         const data = await response.json();
-        resultDiv.textContent = 'Result: ' + data.ans;
+        resultDiv.textContent = 'Result: ' + data;
       } catch (error) {
         resultDiv.textContent = 'Error: ' + error.message;
       }
